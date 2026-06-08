@@ -8,17 +8,17 @@
 <description>Feed RSS personale per ascoltare L'Amaca di Michele Serra su client podcast.</description>
 <language>it-it</language>
 <copyright>Contenuti GEDI Gruppo Editoriale. Feed personale non ufficiale.</copyright>
-<lastBuildDate>Mon, 08 Jun 2026 09:12:19 +0000</lastBuildDate>
+<lastBuildDate>Mon, 08 Jun 2026 09:18:21 +0000</lastBuildDate>
 
 <itunes:author>Michele Serra</itunes:author>
 <itunes:summary>L'Amaca di Michele Serra.</itunes:summary>
 <itunes:explicit>false</itunes:explicit>
 <itunes:type>episodic</itunes:type>
 <itunes:category text="News"/>
-<itunes:image href="https://www.repstatic.it/video/photo/2026/06/06/1286522/1286522-thumb-spotify-800-amacaserra_07_06_2026.jpg"/>
+<itunes:image href="https://scumaci74.github.io/amaca-feed/l-amaca.jpg"/>
 
 <image>
-  <url>https://www.repstatic.it/video/photo/2026/06/06/1286522/1286522-thumb-spotify-800-amacaserra_07_06_2026.jpg</url>
+  <url>https://scumaci74.github.io/amaca-feed/l-amaca.jpg</url>
   <title>L'Amaca - Michele Serra</title>
   <link>https://www.repubblica.it/rubriche/l-amaca/</link>
 </image>
