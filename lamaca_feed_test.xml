@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>L'Amaca - Feed test personale</title>
+    <link>https://www.repubblica.it/rubriche/l-amaca/</link>
+    <description>Feed RSS di test personale per ascolto su client podcast.</description>
+    <language>it-it</language>
+    <copyright>GEDI Gruppo Editoriale - feed personale di test</copyright>
+    <itunes:author>Repubblica</itunes:author>
+    <itunes:summary>Feed RSS di test personale per verificare la compatibilità con client podcast.</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="News" />
+    <itunes:image href="https://www.repubblica.it/favicon.ico" />
+    <item>
+      <title>L'Amaca del 6 giugno 2026</title>
+      <description>Episodio di test da URL MP3 individuato tramite browser.</description>
+      <pubDate>Sat, 06 Jun 2026 06:00:00 +0200</pubDate>
+      <guid isPermaLink="false">lamaca-2026-06-06-1286166</guid>
+      <enclosure url="https://media.gedidigital.it/repubblicatv/file/2026/06/05/1286166/1286166-mp3-audio-128-amacaserra_06_06_2026.mp3" length="0" type="audio/mpeg" />
+    </item>
+  </channel>
+</rss>
