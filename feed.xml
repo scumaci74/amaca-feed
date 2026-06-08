@@ -1,36 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-     xmlns:content="http://purl.org/rss/1.0/modules/content/"
-     xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>L'Amaca - Feed personale</title>
-    <link>https://www.repubblica.it/rubriche/l-amaca/</link>
-    <atom:link href="https://scumaci74.github.io/amaca-feed/feed.xml" rel="self" type="application/rss+xml"/>
-    <description>Feed RSS personale per ascoltare L'Amaca su client podcast.</description>
-    <language>it-it</language>
-    <copyright>Contenuti di GEDI Gruppo Editoriale. Feed personale non ufficiale.</copyright>
-    <lastBuildDate>Mon, 08 Jun 2026 07:45:24 +0000</lastBuildDate>
-    <itunes:author>Michele Serra</itunes:author>
-    <itunes:summary>Feed RSS personale per ascoltare L'Amaca su client podcast.</itunes:summary>
-    <itunes:explicit>false</itunes:explicit>
-    <itunes:type>episodic</itunes:type>
-    <itunes:category text="News"/>
-    <itunes:image href="https://www.repubblica.it/favicon.ico"/>
-    <itunes:owner>
-      <itunes:name>Feed personale</itunes:name>
-      <itunes:email>noreply@example.com</itunes:email>
-    </itunes:owner>
+<rss version="2.0">
+<channel>
+<title>L'Amaca - Michele Serra</title>
+<link>https://www.repubblica.it/rubriche/l-amaca/</link>
+<description>Feed RSS personale generato automaticamente</description>
+<language>it-it</language>
+
+
     <item>
-      <title>L'Amaca del 6 giugno 2026</title>
-      <description>Episodio di test con URL MP3 individuato dal sito Repubblica.</description>
-      <content:encoded><![CDATA[Episodio di test con URL MP3 individuato dal sito Repubblica.]]></content:encoded>
-      <pubDate>Sat, 06 Jun 2026 06:00:00 +0000</pubDate>
-      <guid isPermaLink="false">amaca-serra-2026-06-06-1286166</guid>
-      <itunes:author>Michele Serra</itunes:author>
-      <itunes:duration>00:02:36</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://media.gedidigital.it/repubblicatv/file/2026/06/05/1286166/1286166-mp3-audio-128-amacaserra_06_06_2026.mp3" length="2500000" type="audio/mpeg"/>
+      <title><![CDATA[L'uso privato di una città]]></title>
+      <guid>rep-locali:audio:425394163</guid>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 -0000</pubDate>
+      <enclosure url="https://media.gedidigital.it/repubblicatv/file/2026/06/06/1286522/1286522-mp3-audio-128-amacaserra_07_06_2026.mp3" type="audio/mpeg"/>
+      <description><![CDATA[00:02:19]]></description>
     </item>
-  </channel>
+    
+    <item>
+      <title><![CDATA[Se il socialismo rimane fuori]]></title>
+      <guid>rep-locali:audio:425392677</guid>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 -0000</pubDate>
+      <enclosure url="https://media.gedidigital.it/repubblicatv/file/2026/06/05/1286166/1286166-mp3-audio-128-amacaserra_06_06_2026.mp3" type="audio/mpeg"/>
+      <description><![CDATA[00:02:36]]></description>
+    </item>
+    
+    <item>
+      <title><![CDATA[Vuoto come una spiaggia del Nord]]></title>
+      <guid>rep-locali:audio:425390259</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 -0000</pubDate>
+      <enclosure url="https://media.gedidigital.it/repubblicatv/file/2026/06/04/1285615/1285615-mp3-audio-128-amacaserra_05_06_2026.mp3" type="audio/mpeg"/>
+      <description><![CDATA[00:02:23]]></description>
+    </item>
+    
+    <item>
+      <title><![CDATA[Le forbici del tempo]]></title>
+      <guid>rep-locali:audio:425388161</guid>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 -0000</pubDate>
+      <enclosure url="https://media.gedidigital.it/repubblicatv/file/2026/06/04/1285092/1285092-mp3-audio-128-amaca_ok_04_giugno.mp3" type="audio/mpeg"/>
+      <description><![CDATA[00:02:14]]></description>
+    </item>
+    
+    <item>
+      <title><![CDATA[Inventare stanca]]></title>
+      <guid>rep-locali:audio:425385507</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 -0000</pubDate>
+      <enclosure url="https://media.gedidigital.it/repubblicatv/file/2026/06/02/1284518/1284518-mp3-audio-128-amacaserra_03_06_2026.mp3" type="audio/mpeg"/>
+      <description><![CDATA[00:02:12]]></description>
+    </item>
+    
+    <item>
+      <title><![CDATA[La gente non mormora più]]></title>
+      <guid>rep-locali:audio:425384152</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 -0000</pubDate>
+      <enclosure url="https://media.gedidigital.it/repubblicatv/file/2026/06/01/1284195/1284195-mp3-audio-128-amacaserra_02_06_2026.mp3" type="audio/mpeg"/>
+      <description><![CDATA[00:02:20]]></description>
+    </item>
+    
+    <item>
+      <title><![CDATA[Le ultime notizie sui dem americani]]></title>
+      <guid>rep-locali:audio:425376884</guid>
+      <pubDate>Fri, 29 May 2026 00:00:00 -0000</pubDate>
+      <enclosure url="https://media.gedidigital.it/repubblicatv/file/2026/05/28/1282725/1282725-mp3-audio-128-amacaserra_29_05_2026.mp3" type="audio/mpeg"/>
+      <description><![CDATA[00:02:07]]></description>
+    </item>
+    
+    <item>
+      <title><![CDATA[Ragionare stanca]]></title>
+      <guid>rep-locali:audio:425373959</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 -0000</pubDate>
+      <enclosure url="https://media.gedidigital.it/repubblicatv/file/2026/05/27/1282038/1282038-mp3-audio-128-amaca_ok_28_maggio.mp3" type="audio/mpeg"/>
+      <description><![CDATA[00:02:18]]></description>
+    </item>
+    
+    <item>
+      <title><![CDATA[Le automobili e la memoria]]></title>
+      <guid>rep-locali:audio:425372016</guid>
+      <pubDate>Wed, 27 May 2026 00:00:00 -0000</pubDate>
+      <enclosure url="https://media.gedidigital.it/repubblicatv/file/2026/05/26/1281634/1281634-mp3-audio-128-amacaserra_27_05_2026.mp3" type="audio/mpeg"/>
+      <description><![CDATA[00:02:25]]></description>
+    </item>
+    
+    <item>
+      <title><![CDATA[Tutto il potere di una minoranza]]></title>
+      <guid>rep-locali:audio:425370226</guid>
+      <pubDate>Tue, 26 May 2026 00:00:00 -0000</pubDate>
+      <enclosure url="https://media.gedidigital.it/repubblicatv/file/2026/05/26/1281253/1281253-mp3-audio-128-amaca_26_05_2026.mp3" type="audio/mpeg"/>
+      <description><![CDATA[00:02:29]]></description>
+    </item>
+    
+
+</channel>
 </rss>
