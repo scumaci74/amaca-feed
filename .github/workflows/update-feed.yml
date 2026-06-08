@@ -1,0 +1,17 @@
+name: Aggiorna Feed Amaca
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository checkout
+        uses: actions/checkout@v4
+
+      - name: Test workflow
+        run: |
+          echo "Workflow installato correttamente"
+          date
