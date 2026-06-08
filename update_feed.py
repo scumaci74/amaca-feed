@@ -1,14 +1,15 @@
-import json
+import html
 import requests
-from datetime import datetime
+from datetime import datetime, timezone
 from email.utils import format_datetime
 
 JSON_URL = "https://www.repubblica.it/json/rubriche/l-amaca/2024/05/16/rubrica/lamaca-422978093/"
 FEED_FILE = "feed.xml"
 
 data = requests.get(JSON_URL, timeout=30).json()
-
 episodes = data["data"][:50]
+
+cover_image = episodes[0].get("image", "https://www.repubblica.it/favicon.ico")
 
 items = []
 
@@ -18,30 +19,52 @@ for ep in episodes:
     pub_date = ep["pub_date"]
     duration = ep.get("duration", "")
     guid = ep["original_id"]
+    image = ep.get("image", cover_image)
 
     try:
-        dt = datetime.strptime(pub_date, "%d/%m/%Y")
+        dt = datetime.strptime(pub_date, "%d/%m/%Y").replace(tzinfo=timezone.utc)
         rss_date = format_datetime(dt)
-    except:
+    except Exception:
         rss_date = pub_date
 
     items.append(f"""
     <item>
       <title><![CDATA[{title}]]></title>
-      <guid>{guid}</guid>
+      <guid isPermaLink="false">{html.escape(guid)}</guid>
       <pubDate>{rss_date}</pubDate>
-      <enclosure url="{mp3}" type="audio/mpeg"/>
+      <author>Michele Serra</author>
+      <itunes:author>Michele Serra</itunes:author>
+      <itunes:duration>{html.escape(duration)}</itunes:duration>
+      <itunes:image href="{html.escape(image)}"/>
       <description><![CDATA[{duration}]]></description>
+      <enclosure url="{html.escape(mp3)}" type="audio/mpeg"/>
     </item>
     """)
 
 rss = f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <channel>
 <title>L'Amaca - Michele Serra</title>
 <link>https://www.repubblica.it/rubriche/l-amaca/</link>
-<description>Feed RSS personale generato automaticamente</description>
+<description>Feed RSS personale per ascoltare L'Amaca di Michele Serra su client podcast.</description>
 <language>it-it</language>
+<copyright>Contenuti GEDI Gruppo Editoriale. Feed personale non ufficiale.</copyright>
+<lastBuildDate>{format_datetime(datetime.now(timezone.utc))}</lastBuildDate>
+
+<itunes:author>Michele Serra</itunes:author>
+<itunes:summary>L'Amaca di Michele Serra.</itunes:summary>
+<itunes:explicit>false</itunes:explicit>
+<itunes:type>episodic</itunes:type>
+<itunes:category text="News"/>
+<itunes:image href="{html.escape(cover_image)}"/>
+
+<image>
+  <url>{html.escape(cover_image)}</url>
+  <title>L'Amaca - Michele Serra</title>
+  <link>https://www.repubblica.it/rubriche/l-amaca/</link>
+</image>
 
 {''.join(items)}
 
