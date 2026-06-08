@@ -9,7 +9,7 @@ FEED_FILE = "feed.xml"
 data = requests.get(JSON_URL, timeout=30).json()
 episodes = data["data"][:50]
 
-cover_image = episodes[0].get("image", "https://www.repubblica.it/favicon.ico")
+cover_image = "https://scumaci74.github.io/amaca-feed/l-amaca.jpg"
 
 items = []
 
