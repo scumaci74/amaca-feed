@@ -3,7 +3,7 @@ name: Aggiorna Feed Amaca
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 6 * * 2-7"
+    - cron: "30 6 * * 1-6"
 
 permissions:
   contents: write
