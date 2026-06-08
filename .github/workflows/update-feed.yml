@@ -2,16 +2,27 @@ name: Aggiorna Feed Amaca
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "30 6 * * 2-7"
+
+permissions:
+  contents: write
 
 jobs:
-  test:
+  update:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Repository checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Test workflow
+      - name: Update feed.xml
+        run: python update_feed.py
+
+      - name: Commit changes
         run: |
-          echo "Workflow installato correttamente"
-          date
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add feed.xml
+          git diff --cached --quiet || git commit -m "Aggiorna feed Amaca"
+          git push
