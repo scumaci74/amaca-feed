@@ -6,7 +6,19 @@ from email.utils import format_datetime
 JSON_URL = "https://www.repubblica.it/json/rubriche/l-amaca/2024/05/16/rubrica/lamaca-422978093/"
 FEED_FILE = "feed.xml"
 
-data = requests.get(JSON_URL, timeout=30).json()
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36",
+    "Accept": "application/json,text/plain,*/*",
+    "Referer": "https://www.repubblica.it/rubriche/l-amaca/2024/05/16/rubrica/lamaca-422978093/"
+}
+
+response = requests.get(JSON_URL, headers=headers, timeout=30)
+print("Status code:", response.status_code)
+print("Content-Type:", response.headers.get("content-type"))
+print("Prime 300 lettere:", response.text[:300])
+
+response.raise_for_status()
+data = response.json()
 episodes = data["data"][:50]
 
 cover_image = "https://scumaci74.github.io/amaca-feed/l-amaca.jpg"
