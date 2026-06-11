@@ -3,8 +3,8 @@ name: Aggiorna Feed Amaca
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 3 * * 0,2-6"
-    - cron: "30 5 * * 0,2-6"
+    - cron: "30 3 * * *"
+    - cron: "30 5 * * *"
 
 permissions:
   contents: write
@@ -16,6 +16,15 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install requests
 
       - name: Update feed.xml
         run: python update_feed.py
