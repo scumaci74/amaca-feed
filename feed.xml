@@ -8,7 +8,7 @@
 <description>Feed RSS personale per ascoltare L'Amaca di Michele Serra su client podcast.</description>
 <language>it-it</language>
 <copyright>Contenuti GEDI Gruppo Editoriale. Feed personale non ufficiale.</copyright>
-<lastBuildDate>Fri, 26 Jun 2026 08:38:23 +0000</lastBuildDate>
+<lastBuildDate>Sat, 27 Jun 2026 05:05:32 +0000</lastBuildDate>
 
 <itunes:author>Michele Serra</itunes:author>
 <itunes:summary>L'Amaca di Michele Serra.</itunes:summary>
@@ -24,6 +24,18 @@
 </image>
 
 
+    <item>
+      <title><![CDATA[Le scorciatoie che illudono]]></title>
+      <guid isPermaLink="false">rep-locali:audio:425436692</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+      <author>Michele Serra</author>
+      <itunes:author>Michele Serra</itunes:author>
+      <itunes:duration>00:02:29</itunes:duration>
+      <itunes:image href="https://www.repstatic.it/video/photo/2026/06/26/1295762/1295762-thumb-spotify-800-amacaserra_27_06_2026.jpg"/>
+      <description><![CDATA[00:02:29]]></description>
+      <enclosure url="https://media.gedidigital.it/repubblicatv/file/2026/06/26/1295762/1295762-mp3-audio-128-amacaserra_27_06_2026.mp3" type="audio/mpeg"/>
+    </item>
+    
     <item>
       <title><![CDATA[Un americano a Venezia]]></title>
       <guid isPermaLink="false">rep-locali:audio:425434323</guid>
@@ -130,18 +142,6 @@
       <itunes:image href="https://www.repstatic.it/video/photo/2026/06/17/1291249/1291249-thumb-spotify-800-amacaserra_17_06_2026.jpg"/>
       <description><![CDATA[00:02:17]]></description>
       <enclosure url="https://media.gedidigital.it/repubblicatv/file/2026/06/17/1291249/1291249-mp3-audio-128-amacaserra_17_06_2026.mp3" type="audio/mpeg"/>
-    </item>
-    
-    <item>
-      <title><![CDATA[Se cade anche il secondo muro]]></title>
-      <guid isPermaLink="false">rep-locali:audio:425412937</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-      <author>Michele Serra</author>
-      <itunes:author>Michele Serra</itunes:author>
-      <itunes:duration>00:02:05</itunes:duration>
-      <itunes:image href="https://www.repstatic.it/video/photo/2026/06/15/1290642/1290642-thumb-spotify-800-amacaserra_16_06_2026.jpg"/>
-      <description><![CDATA[00:02:05]]></description>
-      <enclosure url="https://media.gedidigital.it/repubblicatv/file/2026/06/15/1290642/1290642-mp3-audio-128-amacaserra_16_06_2026.mp3" type="audio/mpeg"/>
     </item>
     
 
