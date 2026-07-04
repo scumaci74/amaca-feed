@@ -8,7 +8,7 @@
 <description>Feed RSS personale per ascoltare L'Amaca di Michele Serra su client podcast.</description>
 <language>it-it</language>
 <copyright>Contenuti GEDI Gruppo Editoriale. Feed personale non ufficiale.</copyright>
-<lastBuildDate>Sat, 04 Jul 2026 08:09:29 +0000</lastBuildDate>
+<lastBuildDate>Sat, 04 Jul 2026 10:01:29 +0000</lastBuildDate>
 
 <itunes:author>Michele Serra</itunes:author>
 <itunes:summary>L'Amaca di Michele Serra.</itunes:summary>
@@ -25,7 +25,7 @@
 
 
     <item>
-      <title><![CDATA[Quei pochi neuroni ribell]]></title>
+      <title><![CDATA[Quei pochi neuroni ribelli]]></title>
       <guid isPermaLink="false">rep-locali:audio:425450410</guid>
       <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
       <author>Michele Serra</author>
