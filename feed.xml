@@ -8,7 +8,7 @@
 <description>Feed RSS personale per ascoltare L'Amaca di Michele Serra su client podcast.</description>
 <language>it-it</language>
 <copyright>Contenuti GEDI Gruppo Editoriale. Feed personale non ufficiale.</copyright>
-<lastBuildDate>Tue, 08 Sep 2026 09:55:02 +0000</lastBuildDate>
+<lastBuildDate>Wed, 09 Sep 2026 05:05:27 +0000</lastBuildDate>
 
 <itunes:author>Michele Serra</itunes:author>
 <itunes:summary>L'Amaca di Michele Serra.</itunes:summary>
@@ -24,6 +24,18 @@
 </image>
 
 
+    <item>
+      <title><![CDATA[Una regola uguale per tutti]]></title>
+      <guid isPermaLink="false">rep-locali:audio:425573233</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+      <author>Michele Serra</author>
+      <itunes:author>Michele Serra</itunes:author>
+      <itunes:duration>00:02:05</itunes:duration>
+      <itunes:image href="https://www.repstatic.it/video/photo/2026/09/08/1325228/1325228-thumb-spotify-800-amacaserra_09_09_2026.jpg"/>
+      <description><![CDATA[00:02:05]]></description>
+      <enclosure url="https://media.gedidigital.it/repubblicatv/file/2026/09/08/1325228/1325228-mp3-audio-128-amacaserra_09_09_2026.mp3" type="audio/mpeg"/>
+    </item>
+    
     <item>
       <title><![CDATA[Democrazia non pervenuta]]></title>
       <guid isPermaLink="false">rep-locali:audio:425570907</guid>
@@ -130,18 +142,6 @@
       <itunes:image href="https://www.repstatic.it/video/photo/2026/08/28/1320738/1320738-thumb-spotify-800-amaca_ok_29_agosto.jpg"/>
       <description><![CDATA[00:02:05]]></description>
       <enclosure url="https://media.gedidigital.it/repubblicatv/file/2026/08/28/1320738/1320738-mp3-audio-128-amaca_ok_29_agosto.mp3" type="audio/mpeg"/>
-    </item>
-    
-    <item>
-      <title><![CDATA[L'epoca delle discoteche tristi]]></title>
-      <guid isPermaLink="false">rep-locali:audio:425550755</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <author>Michele Serra</author>
-      <itunes:author>Michele Serra</itunes:author>
-      <itunes:duration>00:02:14</itunes:duration>
-      <itunes:image href="https://www.repstatic.it/video/photo/2026/08/27/1320455/1320455-thumb-spotify-800-amacaserra_28_08_2026.jpg"/>
-      <description><![CDATA[00:02:14]]></description>
-      <enclosure url="https://media.gedidigital.it/repubblicatv/file/2026/08/27/1320455/1320455-mp3-audio-128-amacaserra_28_08_2026.mp3" type="audio/mpeg"/>
     </item>
     
 
