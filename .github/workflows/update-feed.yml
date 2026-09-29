@@ -2,9 +2,6 @@ name: Aggiorna Feed Amaca
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "30 3 * * *"
-    - cron: "30 5 * * *"
 
 permissions:
   contents: write
@@ -27,7 +24,28 @@ jobs:
           pip install requests
 
       - name: Update feed.xml
-        run: python update_feed.py
+        shell: bash
+        run: |
+          set +e
+
+          python update_feed.py
+          status=$?
+
+          if [ $status -ne 0 ]; then
+            echo "Primo tentativo fallito. Attendo 120 secondi e riprovo..."
+            sleep 120
+            python update_feed.py
+            status=$?
+          fi
+
+          if [ $status -ne 0 ]; then
+            echo "Secondo tentativo fallito. Attendo 180 secondi e riprovo..."
+            sleep 180
+            python update_feed.py
+            status=$?
+          fi
+
+          exit $status
 
       - name: Commit changes
         run: |
