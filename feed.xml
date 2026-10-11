@@ -8,7 +8,7 @@
 <description>Feed RSS personale per ascoltare L'Amaca di Michele Serra su client podcast.</description>
 <language>it-it</language>
 <copyright>Contenuti GEDI Gruppo Editoriale. Feed personale non ufficiale.</copyright>
-<lastBuildDate>Sat, 10 Oct 2026 05:07:51 +0000</lastBuildDate>
+<lastBuildDate>Sun, 11 Oct 2026 05:10:28 +0000</lastBuildDate>
 
 <itunes:author>Michele Serra</itunes:author>
 <itunes:summary>L'Amaca di Michele Serra.</itunes:summary>
@@ -24,6 +24,18 @@
 </image>
 
 
+    <item>
+      <title><![CDATA[Tutti appesi a un capo]]></title>
+      <guid isPermaLink="false">rep-locali:audio:425639690</guid>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      <author>Michele Serra</author>
+      <itunes:author>Michele Serra</itunes:author>
+      <itunes:duration>00:02:06</itunes:duration>
+      <itunes:image href="https://www.repstatic.it/video/photo/2026/10/10/1339508/1339508-thumb-spotify-800-amaca_ok_11_ottobre.jpg"/>
+      <description><![CDATA[00:02:06]]></description>
+      <enclosure url="https://media.gedidigital.it/repubblicatv/file/2026/10/10/1339508/1339508-mp3-audio-128-amaca_ok_11_ottobre.mp3" type="audio/mpeg"/>
+    </item>
+    
     <item>
       <title><![CDATA[Suprematisti umani]]></title>
       <guid isPermaLink="false">rep-locali:audio:425637972</guid>
@@ -130,18 +142,6 @@
       <itunes:image href="https://www.repstatic.it/video/photo/2026/10/01/1335034/1335034-thumb-spotify-800-amaca_01_10_2026.jpg"/>
       <description><![CDATA[00:02:22]]></description>
       <enclosure url="https://media.gedidigital.it/repubblicatv/file/2026/10/01/1335034/1335034-mp3-audio-128-amaca_01_10_2026.mp3" type="audio/mpeg"/>
-    </item>
-    
-    <item>
-      <title><![CDATA[Mancava solo l'inno di Mameli]]></title>
-      <guid isPermaLink="false">rep-locali:audio:425615388</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-      <author>Michele Serra</author>
-      <itunes:author>Michele Serra</itunes:author>
-      <itunes:duration>00:02:17</itunes:duration>
-      <itunes:image href="https://www.repstatic.it/video/photo/2026/09/29/1334368/1334368-thumb-spotify-800-amacaserra_30_09_2026.jpg"/>
-      <description><![CDATA[00:02:17]]></description>
-      <enclosure url="https://media.gedidigital.it/repubblicatv/file/2026/09/29/1334368/1334368-mp3-audio-128-amacaserra_30_09_2026.mp3" type="audio/mpeg"/>
     </item>
     
 
