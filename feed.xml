@@ -8,7 +8,7 @@
 <description>Feed RSS personale per ascoltare L'Amaca di Michele Serra su client podcast.</description>
 <language>it-it</language>
 <copyright>Contenuti GEDI Gruppo Editoriale. Feed personale non ufficiale.</copyright>
-<lastBuildDate>Tue, 03 Nov 2026 09:30:49 +0000</lastBuildDate>
+<lastBuildDate>Wed, 04 Nov 2026 06:05:27 +0000</lastBuildDate>
 
 <itunes:author>Michele Serra</itunes:author>
 <itunes:summary>L'Amaca di Michele Serra.</itunes:summary>
@@ -24,6 +24,18 @@
 </image>
 
 
+    <item>
+      <title><![CDATA[Fratellanza in mare e in terra]]></title>
+      <guid isPermaLink="false">rep-locali:audio:425697001</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <author>Michele Serra</author>
+      <itunes:author>Michele Serra</itunes:author>
+      <itunes:duration>00:02:26</itunes:duration>
+      <itunes:image href="https://www.repstatic.it/video/photo/2026/11/03/1350598/1350598-thumb-spotify-800-amacaserra_04_11_2026.jpg"/>
+      <description><![CDATA[00:02:26]]></description>
+      <enclosure url="https://media.gedidigital.it/repubblicatv/file/2026/11/03/1350598/1350598-mp3-audio-128-amacaserra_04_11_2026.mp3" type="audio/mpeg"/>
+    </item>
+    
     <item>
       <title><![CDATA[L'attentato contro il pane]]></title>
       <guid isPermaLink="false">rep-locali:audio:425694191</guid>
@@ -130,18 +142,6 @@
       <itunes:image href="https://www.repstatic.it/video/photo/2026/10/23/1345741/1345741-thumb-spotify-800-amaca_ok_24_ottobre.jpg"/>
       <description><![CDATA[00:02:12]]></description>
       <enclosure url="https://media.gedidigital.it/repubblicatv/file/2026/10/23/1345741/1345741-mp3-audio-128-amaca_ok_24_ottobre.mp3" type="audio/mpeg"/>
-    </item>
-    
-    <item>
-      <title><![CDATA[Le cose come stanno]]></title>
-      <guid isPermaLink="false">rep-locali:audio:425669314</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <author>Michele Serra</author>
-      <itunes:author>Michele Serra</itunes:author>
-      <itunes:duration>00:02:11</itunes:duration>
-      <itunes:image href="https://www.repstatic.it/video/photo/2026/10/23/1345413/1345413-thumb-spotify-800-23102026_amaca.jpg"/>
-      <description><![CDATA[00:02:11]]></description>
-      <enclosure url="https://media.gedidigital.it/repubblicatv/file/2026/10/23/1345413/1345413-mp3-audio-128-23102026_amaca.mp3" type="audio/mpeg"/>
     </item>
     
 
